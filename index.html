@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Оставьте заявку</h2>
+            <form id="feedback" name="feedback">
+                <div>
+                    <label>Введите ссылку</label>
+                    <input name="link" class="inputLink" type="text" placeholder="Ссылка">
+                </div>
+            </form>
+            <div class="description">Предпочитаемый способ связи</div>
+            <ul class="socials">
+                <li class="socials_item"><img class="svg" src="./assets/phone-call.svg" alt="phone"></li>
+                <li class="socials_item"><img src="./assets/whatsapp-logo.svg" alt="whatsapp"></li>
+                <li class="socials_item"><img src="./assets/telegram-logo.svg" alt="telegram"></li>
+                <li class="socials_item"><img src="./assets/viber-logo.svg" alt="viber"></li>
+            </ul>
+            <button class="buttonSend" form="feedback">Отправить</button>
+            <div class="response"></div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

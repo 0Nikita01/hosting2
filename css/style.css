@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .content {
+    /*
+    margin-left: 10%;
+    padding: 30px;*/
+    display: inline-block;
+    padding: 30px;
+    border: 1px solid black
+}
+
+.container .content h2 {
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.container .content form {
+    position: relative;
+    display: flex;
+    justify-content: row;
+    padding-bottom: 30px;
+}
+
+.container .content form div:first-child {
+    margin-right: 20px;
+}
+
+.container .content input {
+    width: 200px;
+    height: 35px;
+    padding: 0 5px 0 5px;
+    outline: none;
+}
+
+.container .content label {
+    position: absolute;
+    top: -25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .content .description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.container .content .socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 30px;
+}
+
+.container .content .socials_item {
+    width: 43px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-color: rgba(212, 212, 212, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .socials_item img {
+    width: 65%;
+    height: 65%;
+    color: rgb(66, 93, 211);
+
+}
+
+.content .socials_item svg:hover {
+    fill: rgb(66, 93, 211);
+}
+
+.container .content button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color:rgb(142, 209, 35);
+    color: white
+}
